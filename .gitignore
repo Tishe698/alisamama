@@ -1,0 +1,35 @@
+# Python virtual environments
+venv/
+
+
+# Temporary files
+*.swp
+.DS_Store
+__pycache__/
+
+# OS generated files
+Thumbs.db
+desktop.ini
+
+# Configuration files
+
+
+# Cache and logs
+cache/
+logs/
+
+# Secret files
+api_key.txt
+credentials.json
+
+# Database files
+*.sqlite3
+*.db
+
+# Compiled files
+*.pyc
+*.pyo
+*.class
+*.jar
+
+# Media files (images, videos, etc.)
