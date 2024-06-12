@@ -1,0 +1,63 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="{% static 'img/иконка/солнце-transformed.png' %}" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'css/header_fotter/footer_v1.css' %}">
+
+</head>
+<body>
+<footer>
+    <div class="modal modal-anim" id="modal">
+        <div class="modal-content">
+
+            <span class="close">&times;</span>
+
+            {% include 'feedback.html' %}
+        </div>
+
+
+    </div>
+    <div class="social">
+        <a href="https://www.youtube.com/channel/UCORcdUdIcRwMVjagv_H1I9Q">
+            <img src="{% static 'img/youtube.png' %}" alt="YouTube">
+        </a>
+
+        <a href="https://vk.com/vedaastra">
+            <img src="{% static 'img/vkontakte.png' %}" alt="Vkontakte">
+        </a>
+
+        <a href="https://t.me/s/LAstroproekt/36">
+            <img src="{% static 'img/telegram.png' %}" alt="Telegram">
+        </a>
+
+        <div class="krug nazmi_form">
+            <div class="vopros">?</div>
+        </div>
+    </div>
+    <div class="block_prav">
+        <div class="margin_fot">
+            <a class="sait_razrab" href="https://pixelpulsetech.ru/">Сайт разработан: PixelPulseTech</a>
+            <div class="po_voprosom">По вопросам рекламы в социальных сетях: ReanimatorZlat@mail.ru
+            </div>
+        </div>
+        <div class="avtor_prava">
+            <div class="linya"></div>
+            <div class="text_prav">Частичное или полное копирование информации с данного сайта для
+                распространения на
+                других ресурсах, в том числе и бумажных, строго запрещено. Все тексты и изображения являются
+                собственностью сайта
+            </div>
+        </div>
+        <div class="shkola_ludm">
+            © 2023 Школа астрологии Людмилы Ясиной
+        </div>
+    </div>
+</footer>
+<script src="{% static 'js/poyzvlenie_forms.js' %}"></script>
+</body>
+</html>

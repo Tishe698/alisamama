@@ -1,0 +1,156 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{% static 'img/иконка/солнце-transformed.png' %}" type="image/x-icon">
+    <title>L-ASTROPOEKT</title>
+    <link rel="stylesheet" href="{% static 'css/home_v2.css' %}">
+</head>
+
+
+<body>
+{% include 'header.html' %}
+<main>
+    <div class="block1 scroll-block">
+        <div class="shkola_ved_astrolog">
+            <p>Школа ведической</p>
+            <p>Астрологии</p>
+        </div>
+        <div class="ludmila_yzsina">Людмилы Ясиной</div>
+        <div class="block_rasrkroite">
+            <div class="socia1">
+                <a href="https://www.youtube.com/channel/UCORcdUdIcRwMVjagv_H1I9Q">
+                    <img src="{% static 'img/youtube.png' %}" alt="YouTube">
+                </a>
+
+                <a href="https://vk.com/vedaastra">
+                    <img src="{% static 'img/vkontakte.png' %}" alt="Vkontakte">
+                </a>
+
+                <a href="https://t.me/s/LAstroproekt/36">
+                    <img src="{% static 'img/telegram.png' %}" alt="Telegram">
+                </a>
+            </div>
+            <div class="text_raskroite">
+
+                <p>
+                    Раскройте сокровенную энциклопедию себя в своей натальной карте и найдите ответы на любые
+                    вопросы в
+                    вашей жизни, осуществляя все свои желания на пути к истинному счастью!"</p>
+                <a href="{% url 'express_konsultacia' %}" class="zapisatsa">
+                    <p>Записаться на консультацию</p>
+                </a>
+            </div>
+
+            <div class="telo">
+                <img src="{% static 'img/DSCF9761 копия 1.png' %}" alt="">
+                <a href="{% url 'express_konsultacia' %}" class="zapisatsa2">
+                    Записаться на консультацию
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="block2 ">
+        <div class="actual_news">
+            <p>Актуальные новости</p>
+        </div>
+        <div class="perv_colonka_novostei">
+            <div class="menyi_block">
+                <div class="kartinka"><img src="{{ menu_item.image.url }}" alt=""></div>
+                <div class="menyi_text">
+                    {{ menu_item.text }}
+                </div>
+                <a href="https://m.youtube.com/@LAstroproekt/videos" class="smotert_video">
+                    <p>Смотреть видео</p>
+                </a>
+            </div>
+            <div class="menyi_block">
+                <div class="kartinka2">
+                    <img src="{{ menu_item2.image.url }}" alt="">
+                </div>
+                <div class="menyi_text_2">
+                    {{ menu_item2.text }}
+                </div>
+                <a href="https://vk.com/@-182371534" class="smotert_video">
+                    <p>Читать статью</p>
+                </a>
+            </div>
+            <div class="menyi_block">
+                <div class="menyi_text_3">
+                    <p>{{ menu_item3.text }}</p>
+                </div>
+                <div class="menyi_text_seredina_3">
+                    <p>{{ menu_item3.text2 }}</p>
+                </div>
+                <a href="{% url 'free_prognoz' %}" class="smotert_video">
+                    <p>Подробнее</p>
+                </a>
+
+            </div>
+        </div>
+        <div class="vtoray_stroka_novistei">
+            <div class="menyi_block">
+                <div class="poluchit_konsultacia">
+                    <p>Получить полную консультацию от астролога Людмилы ЯСИНОЙ</p>
+                </div>
+                <div class="kartinka_konsultacia">
+                    <img src="{% static 'img/получить полную консультацию.png' %}" alt="">
+                </div>
+                <a href="{% url 'express_konsultacia' %}?from=first_page#block_poln_kons" class="smotert_video">
+                    <p>Записаться</p>
+                </a>
+            </div>
+            <div class="menyi_block">
+                <div class="ekcpers_konsultacia_super">
+                    <p>ЭКСПРЕСС
+                        консультации по
+                        СУПЕРЦЕНЕ</p>
+                </div>
+                <div class="tysha">
+                    <p>1000Р</p>
+                </div>
+                <div class="dlit_konsult">
+                    Длительность консультации от 30 минут
+                </div>
+                <a href="{% url 'express_konsultacia' %}" class="posmotr_spisok_tem">
+                    <p>Посмотреть список тем</p>
+                </a>
+            </div>
+            <div class="menyi_block">
+                <div class="stan_astrolog_pomogi">
+                    <p>СТАНЬ АСТРОЛОГОМ и научись помогать людям и зарабатывать
+                        ИЗ ЛЮБОЙ ТОЧКИ МИРА</p>
+                </div>
+                <div class="kartinka_posl_block">
+                    <img src="{% static 'img/узнать подробнее.png' %}" alt="">
+                </div>
+                <a href="{% url 'traning' %}" class="smotert_video">
+                    <p>Узнать подробнее</p>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <div class="block3">
+        <div class="kniga">
+            <img src="{% static 'img/книга 1.png' %}" alt="">
+        </div>
+        <div class="text_gaid nazmi_form">
+            <p>Этот гайд поможет вам узнать самостоятельно, не прибегая к помощи астрологов, есть ли в вашем гороскопе
+                ретроградные планеты и какие задачи они вам ставят</p>
+        </div>
+        <a href="https://t.me/LAstroproekt_bot" class="skachatgaid">
+            <p>Скачать</p>
+        </a>
+    </div>
+
+</main>
+
+{% include 'footer.html' %}
+</body>
+
+</html>

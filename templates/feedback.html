@@ -1,0 +1,31 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="{% static 'img/иконка/солнце-transformed.png' %}" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'css/header_fotter/forms_v1.css' %}">
+    <title>Document</title>
+</head>
+
+<form action="{% url 'feedback' %}" method="post">
+    {% csrf_token %}
+    <div class="okno_form">
+        <label class="form-label param_name">{{ form.name.label }}</label>
+        {{ form.name }}
+
+        <label class="form-label param_name">{{ form.phone_number.label }}</label>
+        {{ form.phone_number }}
+
+        <label class="form-label param_name">{{ form.message.label }}</label>
+        {{ form.message }}
+            <label class="soglasie_danye" for="{{ form.agreement.id_for_label }}">
+                {{ form.agreement }}
+                <p>Согласие на обработку персональных данных</p>
+            </label>
+        <button type="submit" class="knopka_otpravit">Отправить</button>
+    </div>
+</form>

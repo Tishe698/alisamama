@@ -1,0 +1,56 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="{% static 'img/иконка/солнце-transformed.png' %}" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="{% static 'css/fontawesomefree/css/all.min.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/header_fotter/header_v1.css' %}">
+</head>
+<body>
+
+<header>
+
+    <div class="navbar">
+                <a href="{% url 'home' %}">
+        <img class="logo_1" src="{% static 'img/logo 1.png' %}" alt="Логотип магазина">
+    </a>
+        <ul class="links">
+
+            <a href="{% url 'home' %}">
+                <div class="logo"></div>
+            </a>
+            <li><a class="li" href="{% url 'traning' %}">Обучающие курсы</a></li>
+            <li><a class="li" href="{% url 'master_class' %}">Мастер-классы</a></li>
+            <li><a class="li" href="{% url 'free_prognoz' %}">Бесплатные астрологические продукты</a></li>
+            <li><a class="li" href="{% url 'about_me' %}">Обо мне</a></li>
+            <li><a class="li" href="{% url 'express_konsultacia' %}">Консультация от астролога Людмилы Ясиной</a></li>
+        </ul>
+        <div class="togler_btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </div>
+    <div class="line"></div>
+
+    <div class="dropdown_menu ">
+        <ul>
+            <li><a class="li" href="{% url 'traning' %}">Обучающие курсы</a></li>
+            <li><a class="li" href="{% url 'master_class' %}">Мастер-классы</a></li>
+            <li><a class="li" href="{% url  'free_prognoz' %}">Бесплатные астрологические продукты</a></li>
+            <li><a class="li" href="{% url 'about_me' %}">Oбо мне</a></li>
+            <li><a class="li" href="{% url 'express_konsultacia' %}">Консультация от астролога Людмилы Ясиной</a></li>
+            <li><a href="#" class="action_btn">Записаться на курсы</a></li>
+        </ul>
+    </div>
+
+
+</header>
+<script src="{% static 'js/header.js' %}"></script>
+</body>
+</html>
+
