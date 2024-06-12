@@ -1,0 +1,120 @@
+footer {
+    text-align: center;
+    font-family: 'HeadlandOne', sans-serif;
+    font-size: 16px;
+    position: relative;
+    margin-top: 8%;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    margin-bottom: 2%;
+}
+
+
+.social img {
+    width: 3vw;
+
+
+}
+
+
+.krug {
+    background: #FCAD09;
+    border-radius: 4vw;
+    width: 4vw;
+    height: 4vw;
+    right: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: HeadlandOne serif;
+    position: fixed;
+    top: 91%;
+    cursor: pointer;
+}
+
+
+.vopros {
+    color: #FFFFFF;
+    font-size: 4vw;
+
+}
+
+
+.text_prav {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
+.block_prav {
+    background: rgba(0, 0, 0, 0.25);
+    color: #000;
+    text-align: center;
+    font-family: HeadlandOne sans-serif;
+    font-size: 1.76875vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.36vw; /* 220.821% */
+    letter-spacing: 0.0855vw;
+}
+
+.margin_fot {
+    line-height: 3vw;
+    margin-bottom: 2vw;
+}
+
+.shkola_ludm {
+    text-align: center;
+    font-family: HeadlandOne sans-serif;
+    font-weight: 400;
+    line-height: 4.175vw; /* 442.262% */
+    letter-spacing: 0.0755vw;
+}
+
+.linya {
+    width: 41%;
+    height: 0.0625vw;
+    background: #FFF;
+    margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+
+    .social img {
+        width: 5vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .social {
+        margin-bottom: 1%;
+    }
+
+    .block_prav {
+        font-size: 1.36875vw;
+
+    }
+
+    footer {
+        margin-top: 3%;
+    }
+
+    .margin_fot {
+        line-height: 1.9vw;
+        margin-bottom: 1vw;
+    }
+
+    .text_prav {
+        font-size: 1.3vw;
+    }
+
+    .shkola_ludm {
+        line-height: 3.175vw;
+
+    }
+}

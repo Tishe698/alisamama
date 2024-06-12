@@ -1,0 +1,1400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+html, body {
+    display: flex;
+    flex-direction: column;
+    background: #DCDDD7;
+    height: 100%;
+
+}
+
+.astro_kamni {
+    display: flex;
+    width: 92.8125vw;
+    height: 6.625vw;
+    flex-direction: column;
+    justify-content: center;
+    background: #FCAD09;
+    position: relative;
+    right: -7%;
+    margin-top: 5%;
+}
+
+.astro_kamni p {
+    color: #FFF;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.2) 0 0.3vw;
+    font-size: 2.1vw;
+    line-height: 3.06806vw;
+    letter-spacing: 0.71719vw;
+    text-transform: uppercase;
+}
+
+.finansy_zagolovok {
+    display: flex;
+    width: 92.8125vw;
+    height: 6.625vw;
+    flex-direction: column;
+    justify-content: center;
+    background: #FCAD09;
+    position: relative;
+    right: -7%;
+    margin-top: 5%;
+}
+
+.finansy_zagolovok p {
+    color: #FFF;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.2) 0 0.3vw;
+    font-size: 2.1vw;
+    line-height: 3.06806vw;
+    letter-spacing: 0.71719vw;
+    text-transform: uppercase;
+}
+
+.retikac_zagolovok {
+    display: flex;
+    width: 92.8125vw;
+    height: 6.625vw;
+    flex-direction: column;
+    justify-content: center;
+    background: #FCAD09;
+    position: relative;
+    right: -7%;
+    margin-top: 5%;
+}
+
+.retikac_zagolovok p {
+    color: #FFF;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.2) 0 0.3vw;
+    font-size: 2.1vw;
+    line-height: 3.06806vw;
+    letter-spacing: 0.71719vw;
+    text-transform: uppercase;
+}
+
+main {
+    flex: 1;
+    margin-top: 7%;
+
+}
+
+.block_express,
+.block_poln_kons {
+    cursor: pointer;
+}
+
+.block_express:hover,
+.block_poln_kons:hover {
+    background: orange;
+}
+
+.express {
+    display: block;
+    margin-bottom: 6%;
+}
+
+.polnye_konsultacii {
+    display: none;
+}
+
+.highlight {
+    background-color: orange;
+    color: rgb(255, 255, 255);
+}
+
+.zapisatsy {
+    border-radius: 2.36vw;
+    background: #FCAD09;
+    width: 34.362vw;
+    height: 5.71125vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.98244vw;
+    font-weight: 700;
+    letter-spacing: 0.45594vw;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.konsultacii {
+    display: flex;
+    color: white;
+}
+
+.cvet {
+    background: rgba(0, 0, 0, 0.23);
+}
+
+.cvet_1 {
+    background: rgba(0, 0, 0, 0.13);
+}
+
+.block_express {
+    width: 50vw;
+    height: 4.5vw;
+    border: 2px solid rgba(0, 0, 0, 0.66);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.block_express p {
+rgba(0, 0, 0, 0.66) font-feature-settings: 'case' on;
+    font-size: 2.06813vw;
+    letter-spacing: 0.62044vw;
+    text-transform: uppercase;
+
+}
+
+.block_poln_kons {
+    width: 50vw;
+    height: 4.5vw;
+    border: 2px solid rgba(0, 0, 0, 0.66);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block_poln_kons p {
+    font-feature-settings: 'case' on;
+    font-size: 2.06813vw;
+    letter-spacing: 0.62044vw;
+    text-transform: uppercase;
+}
+
+.druzya_konsult {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-align: center;
+    font-size: 1.98244vw;
+    line-height: 3.39844vw;
+    letter-spacing: 0.31719vw;
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.prodoljit_razbora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-align: center;
+    font-size: 1.98244vw;
+    line-height: 3.39844vw;
+    letter-spacing: 0.31719vw;
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.accordion {
+    width: 20vw; /* Регулируйте ширину аккордеона по своему усмотрению */
+}
+
+.item {
+    color: rgba(0, 0, 0, 0.82);
+    font-size: 2.124vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.78481vw; /* 131.111% */
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    width: 100vw;
+    height: 7.6875vw;
+    padding-left: 10%;
+}
+
+.icon {
+    font-size: 3vw;
+    margin-right: 2%;
+    color: orange;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    width: 86vw;
+    color: #000;
+    font-size: 1.98244vw;
+    line-height: 2.75vw; /* 138.719% */
+    letter-spacing: 0.19825vw;
+    margin-left: 21%;
+}
+
+.iconka {
+    width: 3vw;
+    padding-right: 1%;
+}
+
+.otzivy_klientov {
+    color: #000;
+    text-align: center;
+    font-size: 1.82163vw;
+    line-height: 2.46675vw; /* 135.417% */
+    letter-spacing: 0.419vw;
+    margin: 8% 0 2% 0;
+}
+
+/* карусель */
+.carousel-container {
+    position: relative;
+}
+
+.carousel {
+    margin: 0 auto;
+    width: 43.18375vw;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+    padding-left: 4%;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #333;
+}
+
+button {
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Отдельные стили для кнопок */
+.prevBtn {
+    mix-blend-mode: darken;
+    left: 24.5vw;
+    position: absolute;
+}
+
+.nextBtn {
+    mix-blend-mode: darken;
+    left: 72vw;
+    position: absolute;
+}
+
+.strelka {
+    width: 5vw;
+}
+
+
+/* 2 блок полн конс*/
+.poln_razb_nat_kart {
+    display: flex;
+    width: 88.8125vw;
+    height: 6.625vw;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    right: -11%;
+    background: #FCAD09;
+    margin-top: 10%;
+}
+
+.poln_razb_nat_kart p {
+    color: #FFF;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.2) 0 0.3vw;
+    font-size: 2.46563vw;
+    line-height: 3.06806vw; /* 135.417% */
+    letter-spacing: 0.31719vw;
+    text-transform: uppercase;
+}
+
+.text_s_licom {
+    display: flex;
+}
+
+.text_dly_vsef {
+    width: 60.8125vw;
+
+}
+
+.text_dly_vsef p {
+    color: #000;
+    font-size: 2.375vw;
+    line-height: 3.39844vw;
+    letter-spacing: 0.49875vw;
+    margin: 16% 0 0 11%;
+}
+
+.lico_poln_razb {
+    margin: 5% 0 0 1%;
+}
+
+.lico_poln_razb img {
+    width: 33.3125vw;
+    height: 42vw;
+    position: absolute;
+}
+
+.margin_lico_poln {
+    margin-top: 44%;
+}
+
+.itog_konsult {
+    width: 60.1875vw;
+    height: 35.375vw;
+    border-radius: 2.5vw;
+    background: #FFF;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%
+}
+
+.itog_konsult p {
+    color: rgba(0, 0, 0, 0.82);
+    font-size: 2.124vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.78481vw;
+    width: 52.4375vw;
+}
+
+.cena {
+    width: 20.90981vw;
+    color: #000;
+    text-align: center;
+    font-size: 2.26563vw;
+    line-height: 3.06806vw; /* 135.417% */
+    letter-spacing: 0.52113vw;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.presonal_astroprog_god {
+    display: flex;
+    width: 88.8125vw;
+    height: 6.625vw;
+    flex-direction: column;
+    justify-content: center;
+    background: #FCAD09;
+    position: relative;
+    right: -11%;
+    margin-top: 5%;
+}
+
+.presonal_astroprog_god p {
+    color: #FFF;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.2) 0 0.3vw;
+    font-size: 2.46563vw;
+    line-height: 3.06806vw; /* 135.417% */
+    letter-spacing: 0.71719vw;
+    text-transform: uppercase;
+}
+
+.express_line {
+    width: 64.19269vw;
+    height: 0.14163vw;
+    background: rgba(0, 0, 0, 0.27);
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.shar_vody {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.shar_vody img {
+    width: 60.5625vw;
+    height: 27.125vw;
+    border-radius: 2vw;
+}
+
+.ispolz_goroskop_god {
+    width: 76.70088vw;
+    color: #000;
+    font-size: 1.98244vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.39844vw; /* 171.429% */
+    letter-spacing: 0.29738vw;
+    margin: 0 auto;
+    margin-top: 5%;
+
+}
+
+.padorok_met_posob {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    color: rgba(0, 0, 0, 0.82);
+    font-size: 2.5vw;
+    line-height: 3.39844vw; /* 135.938% */
+    letter-spacing: 0.05vw
+}
+
+.block_rebonok {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.rebenok_text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+.rebenok {
+    margin-left: 2%;
+}
+
+.rebenok img {
+    width: 33.875vw;
+    height: 49vw;
+    border-radius: 2vw;
+}
+
+.kons_rodit {
+    width: 50.875vw;
+    color: #000;
+    font-size: 1.98244vw;
+    line-height: 3.39844vw; /* 171.429% */
+    letter-spacing: 0.41631vw;
+    margin: 5% 0 0 4%;
+}
+
+.zalojiny_talanty {
+    display: flex;
+    width: 53.75vw;
+    flex-direction: column;
+    justify-content: center;
+    color: #000;
+    font-size: 2vw;
+    line-height: 3.39844vw;
+    letter-spacing: 0.03963vw;
+    margin: 14% 0 0 5%;
+}
+
+.priroda {
+    margin-top: 2%;
+    display: flex;
+    width: 93.0625vw;
+    height: 28.3125vw;
+    flex-direction: column;
+    justify-content: center;
+    color: #000;
+    font-size: 1.98vw;
+    line-height: 3.39844vw;
+    letter-spacing: 0.03963vw;
+    margin-left: 7%;
+}
+
+.chasto_rebenok {
+    margin-top: 2%;
+    display: flex;
+    width: 93.0625vw;
+    height: 28.3125vw;
+    flex-direction: column;
+    justify-content: center;
+    color: #000;
+    font-size: 1.98vw;
+    line-height: 3.39844vw;
+    letter-spacing: 0.03963vw;
+    margin-left: 7%;
+}
+
+.sovmest_plus {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-left: 11%;
+    margin-bottom: 3%;
+}
+
+.sovmest_plus img {
+    width: 2.3125vw;
+    height: 2vw;
+    mix-blend-mode: darken;
+}
+
+.sovmest_plus p {
+    padding-left: 5%;
+    color: rgba(0, 0, 0, 0.82);
+    font-size: 2.124vw;
+    line-height: 2.78481vw;
+}
+
+.dve_ruki {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.dve_ruki img {
+    width: 72.125vw;
+    height: 27vw;
+    border-radius: 2vw;
+}
+
+.obsh_sovmest {
+    margin-top: 6%;
+    margin-left: 11%;
+    margin-bottom: 4%;
+
+}
+
+.obsh_sovmest p {
+    color: #000;
+    font-size: 1.98244vw;
+    line-height: 3.39844vw; /* 171.429% */
+    letter-spacing: 0.41631vw;
+}
+
+.eshe_rasmatr {
+    display: flex;
+    width: 82.625vw;
+    height: 14.625vw;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3%;
+    color: #000;
+    font-size: 1.93525vw;
+    line-height: 3.39844vw; /* 175.61% */
+    letter-spacing: 0.03869vw;
+    margin-left: 6%;
+}
+
+.sovmes_goroskop {
+    width: 76.70088vw;
+    color: #000;
+    font-size: 1.98244vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.39844vw;
+    letter-spacing: 0.29738vw;
+    margin-left: 6%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+.podbor {
+    display: flex;
+    width: 86.9375vw;
+    height: 4.9375vw;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.82);
+    text-align: center;
+    font-size: 2.124vw;
+    line-height: 2.78481vw;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 8%;
+
+    text-transform: uppercase;
+
+}
+
+.podbor_blag_dat {
+    display: flex;
+    width: 92.8125vw;
+    height: 6.625vw;
+    flex-direction: column;
+    justify-content: center;
+    background: #FCAD09;
+    position: relative;
+    right: -7%;
+    margin-top: 5%;
+}
+
+.podbor_blag_dat p {
+    color: #FFF;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.2) 0 0.22vw;
+    font-size: 2.1vw;
+    line-height: 3.06806vw;
+    letter-spacing: 0.71719vw;
+    text-transform: uppercase;
+}
+
+.podbor_vrem {
+    position: relative;
+}
+
+
+.podbor_blag_vrem {
+    display: flex;
+    width: 45.0625vw;
+    height: 10.3125vw;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 7%;
+
+}
+
+.podbor_blag_vrem p {
+    color: #000;
+    font-size: 1.93525vw;
+    line-height: 3.39844vw; /* 175.61% */
+    letter-spacing: 0.03869vw;
+}
+
+.galka_punkt {
+    display: flex;
+    margin-top: 4%;
+    margin-left: 7%;
+}
+
+.galka_punkt p {
+    color: rgba(0, 0, 0, 0.82);
+    text-align: center;
+    font-size: 2.124vw;
+    line-height: 1.888vw; /* 88.889% */
+    margin-left: 4%;
+}
+
+.galka_punkt img {
+    width: 2.26563vw;
+    height: 2.26563vw;
+}
+
+.doroga {
+    position: absolute;
+    right: 3vw;
+    top: 3vw;
+}
+
+.doroga img {
+    width: 39.4375vw;
+    height: 26.3125vw;
+    border-radius: 2vw;
+}
+
+.retifikac {
+    width: 78.125vw;
+    margin: 0 auto;
+    margin-top: 5%;
+    color: rgba(0, 0, 0, 0.82);
+    font-size: 2.124vw;
+    line-height: 3.78481vw; /* 131.111% */
+    letter-spacing: 0.21238vw;
+}
+
+.finans {
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-bottom: 13vw;
+}
+
+.razver_kons {
+    display: flex;
+    flex-direction: column;
+    width: 40.375vw;
+
+}
+
+.razver_kons p {
+    color: #000;
+    font-size: 1.98244vw;
+    line-height: 3.1875vw; /* 160.788% */
+    letter-spacing: 0.19825vw;
+}
+
+
+.lico_vashi_deng {
+    width: 38.5625vw;
+    height: 57.375vw;
+    margin-left: 59%;
+    margin-top: -64%;
+}
+
+.kakoi_bizn_podushe {
+    width: 46.9375vw;
+    height: 4.0625vw;
+    background-color: #FCAD09;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    float: right;
+    margin-top: -0.5%;
+    justify-content: center;
+}
+
+.kakoi_bizn_podushe p {
+    color: #FFF;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.2) 0 0.3vw;
+    font-size: 2vw;
+    line-height: 3.0625vw; /* 153.125% */
+    letter-spacing: 0.22vw;
+    text-transform: uppercase;
+}
+
+.skoro_vash {
+    width: 76.4375vw;
+    color: #000;
+    font-size: 1.98244vw;
+    line-height: 3.1875vw; /* 160.788% */
+    letter-spacing: 0.19825vw;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+
+.vybor_professia {
+    border-top-left-radius: 2vw;
+    background: #FCAD09;
+    width: 48.9375vw;
+    height: 20.53556vw;
+    margin-top: 2%;
+    float: right;
+}
+
+.vybor_professia p {
+    color: #FFF;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.2) 0 0.3vw;
+    font-size: 2vw;
+    line-height: 3.0625vw; /* 153.125% */
+    letter-spacing: 0.22vw;
+    text-transform: uppercase;
+}
+
+.kem_but_foto {
+    position: relative;
+    width: 100vw;
+    height: 59vw;
+}
+
+.kem_but_foto img {
+    width: 70.4375vw;
+    height: 34.3125vw;
+    position: absolute;
+    right: 13vw;
+    top: 16vw;
+    border-radius: 2vw;
+}
+
+.zakanchavit_shkoly {
+    width: 76.4375vw;
+    margin: 0 auto;
+    color: #000;
+    font-size: 1.98244vw;
+    line-height: 3.1875vw; /* 160.788% */
+    letter-spacing: 0.19825vw;
+}
+
+.block_kamni {
+    display: flex;
+    margin-left: 14%;
+    gap: 2vw;
+}
+
+.text_kamni {
+    width: 36.8125vw;
+    color: #000;
+    font-size: 1.98244vw;
+    line-height: 4vw; /* 201.773% */
+    letter-spacing: 0.19825vw;
+    margin-top: 2%;
+}
+
+.kartinka_kamni {
+    background: url(../img/poln_kons/камни.png) no-repeat;
+    background-position: center;
+    object-fit: contain;
+    width: 40.125vw;
+    height: 60vw;
+    border-radius: 2vw
+
+}
+
+.kartinka_kamni p {
+    color: rgba(0, 0, 0, 0.58);
+    text-shadow: rgba(0, 0, 0, 0.1) 0 0.25vw;
+    font-size: 2vw;
+    line-height: 3.3125vw;
+    letter-spacing: 0.217vw;
+    width: 28vw;
+    margin-top: 13%;
+    margin-left: 30%;
+}
+
+.block_braslet {
+    margin: 0 auto;
+    width: 60.1875vw;
+    height: 35.375vw;
+    margin-top: 1%;
+    display: flex;
+    border-radius: 2.5vw;
+    background: #FFF;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zakaz_bras {
+    width: 52.4375vw;
+    color: rgba(0, 0, 0, 0.82);
+    text-align: center;
+    font-size: 2.124vw;
+    line-height: 2.78481vw; /* 131.111% */
+    margin-top: 2%;
+}
+
+.stoimost {
+    width: 36.4375vw;
+    color: #000;
+    text-align: center;
+    font-size: 2.26563vw;
+    line-height: 3.06806vw; /* 135.417% */
+    letter-spacing: 0.52113vw;
+    margin-top: 8%;
+}
+
+.zakazat_braslet {
+    width: 34.362vw;
+    height: 5.71125vw;
+    margin-top: 5vw;
+    justify-content: center;
+    display: flex;
+    border-radius: 2.36vw;
+    background: #FCAD09;
+    align-items: center;
+    color: #FFF;
+    font-size: 1.98244vw;
+    line-height: normal;
+    letter-spacing: 0.45594vw;
+
+}
+
+.prednaznachenie p {
+    color: #FFF;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.2) 0 0.3vw;
+    font-size: 3.1vw;
+    line-height: 3.06806vw;
+    letter-spacing: 0.71719vw;
+    text-transform: uppercase;
+}
+
+.prednaznachenie {
+    display: flex;
+    width: 92.8125vw;
+    height: 6.625vw;
+    flex-direction: column;
+    justify-content: center;
+    background: #FCAD09;
+    position: relative;
+    right: -7%;
+    margin-top: 5%;
+}
+
+.pomojet_raskryt {
+    width: 57.3125vw;
+    height: 14.5vw;
+    border-top-right-radius: 2.5vw;
+    border-bottom-right-radius: 2.5vw;
+    background: #FFF;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.pomojet_raskryt p {
+    color: rgba(0, 0, 0, 0.82);
+    font-size: 2.124vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.5vw;
+    width: 51.25vw;
+    letter-spacing: 0.24vw;
+    text-align: center;
+}
+
+.pyt {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.pyt img {
+    width: 68.875vw;
+    height: 66.1875vw;
+    border-radius: 2.5625vw;
+}
+
+.naprav_pyt {
+    width: 76.25vw;
+    margin: 0 auto;
+    margin-top: 3%;
+    color: #000;
+    font-size: 1.98244vw;
+    line-height: 4vw; /* 201.773% */
+    letter-spacing: 0.19825vw;
+}
+
+@media (min-width: 992px) {
+    .block_express {
+        height: 2.5vw;
+    }
+
+    .block_express p {
+        font-size: 1.66813vw;
+    }
+
+    .block_poln_kons {
+        height: 2.5vw;
+    }
+
+    .block_poln_kons p {
+        font-size: 1.66813vw;
+    }
+
+    main {
+        margin-top: 4%;
+    }
+
+    .druzya_konsult {
+        font-size: 1.58244vw;
+        margin-top: 3%;
+    }
+
+    .prodoljit_razbora {
+        font-size: 1.48244vw;
+        margin-top: 2%;
+    }
+
+    .title {
+        height: 4.6875vw;
+        font-size: 1.5vw;
+    }
+
+    .content {
+        font-size: 1.48244vw;
+    }
+
+    .otzivy_klientov {
+        font-size: 1.42163vw;
+        margin: 4% 0 2% 0;
+    }
+
+    .carousel {
+        width: 32.18375vw;
+    }
+
+
+    .prevBtn {
+        left: 30.5vw;
+    }
+
+    .nextBtn {
+        left: 67vw;
+    }
+
+    .strelka {
+        width: 3vw;
+    }
+
+    /* полные консл*/
+    .lico_poln_razb {
+        margin: -1% 0 0 3%;
+    }
+
+    .poln_razb_nat_kart {
+        height: 4.625vw;
+        margin-top: 3%;
+    }
+
+    .poln_razb_nat_kart p {
+        font-size: 2.1vw;
+    }
+
+    .text_dly_vsef p {
+        color: #000;
+        font-size: 1.7vw;
+        line-height: 3.39844vw;
+        letter-spacing: 0.49875vw;
+        margin: 9% 0 0 10%;
+    }
+
+
+    .lico_poln_razb img {
+        width: 28.3125vw;
+        height: 34vw;
+    }
+
+    .itog_konsult p {
+        font-size: 1.124vw;
+        line-height: 2.58481vw;
+        width: 31.4375vw;
+    }
+
+    .itog_konsult {
+        width: 39.1875vw;
+        height: 21.375vw;
+        border-radius: 2.5vw;
+        margin-top: 3%;
+    }
+
+    .cena {
+        font-size: 1.7vw;
+        margin-top: 4%;
+    }
+
+    .zapisatsy {
+        width: 19.362vw;
+        height: 3.71125vw;
+        font-size: 1.28244vw;
+        margin-top: 2%;
+    }
+
+    .presonal_astroprog_god {
+        height: 4.625vw;
+        margin-top: 3%;
+    }
+
+    .presonal_astroprog_god p {
+        font-size: 2.16563vw;
+    }
+
+    .shar_vody {
+        margin-top: 3%;
+    }
+
+    .shar_vody img {
+        width: 38.5625vw;
+        height: 21.125vw;
+    }
+
+    .ispolz_goroskop_god {
+        font-size: 1.5vw;
+        margin-top: 3%;
+    }
+
+    .padorok_met_posob {
+        margin-top: 3%;
+        font-size: 1.7vw;
+    }
+
+    .kons_rodit {
+        font-size: 1.7vw;
+        margin: 0% 0 0 4%;
+    }
+
+    .rebenok img {
+        width: 28.875vw;
+        height: 37vw;
+    }
+
+    .zalojiny_talanty {
+        font-size: 1.5vw;
+        margin: 2% 0 0 5%;
+    }
+
+    .priroda {
+        margin-top: 0%;
+        font-size: 1.5vw;
+    }
+
+    .chasto_rebenok {
+        margin-top: -4%;
+        font-size: 1.5vw;
+    }
+
+    .sovmes_goroskop {
+        font-size: 1.7vw;
+        margin-left: 11%;
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+
+    .sovmest_plus {
+        margin-top: 1%;
+        margin-bottom: 0%;
+    }
+
+    .sovmest_plus img {
+        width: 2vw;
+        height: 2vw;
+        margin-top: 0.59%;
+    }
+
+    .sovmest_plus p {
+        padding-left: 3%;
+        color: rgba(0, 0, 0, 0.82);
+        font-size: 1.5vw;
+        line-height: 2.78481vw;
+        padding-bottom: 0%;
+    }
+
+    .dve_ruki {
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+    }
+
+    .dve_ruki img {
+        width: 59.125vw;
+        height: 19vw;
+        border-radius: 2vw;
+    }
+
+    .obsh_sovmest p {
+        color: #000;
+        font-size: 1.78244vw;
+        line-height: 3.39844vw;
+        letter-spacing: 0.41631vw;
+    }
+
+    .obsh_sovmest {
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+
+    .eshe_rasmatr {
+        width: 82.625vw;
+        height: 14.625vw;
+        margin-top: 3%;
+        font-size: 1.5vw;
+        margin-left: 11%;
+    }
+
+    .podbor_blag_dat {
+        height: 4.625vw;
+        margin-top: 3%;
+    }
+
+    .podbor {
+        font-size: 1.7vw;
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+
+    .podbor_blag_vrem {
+        height: 3.3125vw;
+    }
+
+    .galka_punkt {
+        margin-top: 2%;
+    }
+
+    .galka_punkt img {
+        width: 2vw;
+        height: 2vw;
+    }
+
+    .galka_punkt p {
+        font-size: 1.5vw;
+        margin-left: 3%;
+    }
+
+    .retikac_zagolovok {
+        height: 4.625vw;
+        margin-top: 3%;
+    }
+
+    .retikac_zagolovok p {
+        line-height: 2.6806vw;
+    }
+
+    .retifikac {
+
+        margin-top: 3%;
+        font-size: 1.5vw;
+        line-height: 2.78481vw;
+    }
+
+    .finansy_zagolovok {
+        height: 4.625vw;
+        margin-top: 3%;
+    }
+
+    .finansy_zagolovok p {
+        line-height: 2.6806vw;
+    }
+
+    .razver_kons p {
+        font-size: 1.5vw;
+        line-height: 2.6vw;
+    }
+
+    .finans {
+        margin-top: 4%;
+        margin-bottom: 9vw;
+    }
+
+    .lico_vashi_deng {
+        width: 32.5625vw;
+        height: 49.375vw;
+    }
+
+    .kakoi_bizn_podushe {
+        width: 42.9375vw;
+    }
+
+    .kakoi_bizn_podushe p {
+        font-size: 1.7vw;
+    }
+
+    .skoro_vash {
+        font-size: 1.7vw;
+        margin-top: 3%;
+    }
+
+    .kem_but_foto {
+        height: 38vw;
+    }
+
+    .kem_but_foto img {
+        width: 52.4375vw;
+        height: 20.3125vw;
+        right: 23vw;
+        top: 14vw;
+    }
+
+    .zakanchavit_shkoly {
+        font-size: 1.5vw;
+    }
+
+    .astro_kamni {
+        height: 4.625vw;
+    }
+
+    .astro_kamni p {
+        line-height: 2.6806vw;
+    }
+
+    .text_kamni {
+        font-size: 1.58244vw;
+        line-height: 3vw;
+        margin-top: 2%;
+    }
+
+    .kartinka_kamni {
+        width: 42.125vw;
+        height: 38vw;
+    }
+
+    .kartinka_kamni p {
+        font-size: 1.4vw;
+        line-height: 2vw;
+        width: 20vw;
+        margin-top: 8%;
+        margin-left: 29%;
+    }
+
+    .block_kamni {
+        margin-top: 0%;
+        margin-left: 13%;
+        gap: 2vw;
+    }
+
+    .block_braslet {
+        margin: 0 auto;
+        width: 42.1875vw;
+        height: 21.375vw;
+        margin-top: 1%;
+    }
+
+    .zakaz_bras {
+        width: 42.4375vw;
+        font-size: 1.5vw;
+        line-height: 2.78481vw;
+        margin-top: 2%;
+    }
+
+    .stoimost {
+        width: 36.4375vw;
+        font-size: 1.5vw;
+        margin-top: 2%;
+    }
+
+    .zakazat_braslet {
+        width: 20.362vw;
+        height: 2.71125vw;
+        margin-top: 1vw;
+        font-size: 1.5vw;
+    }
+
+    .prednaznachenie {
+        height: 4.625vw;
+        margin-top: 3%;
+    }
+
+    .prednaznachenie p {
+        font-size: 2.1vw;
+        letter-spacing: 0.91719vw;
+    }
+
+    .pomojet_raskryt {
+        width: 44.3125vw;
+        height: 9.5vw;
+        margin-top: 2%;
+    }
+
+    .pomojet_raskryt p {
+        font-size: 1.424vw;
+        line-height: 3vw;
+    }
+
+    .pyt {
+        margin-top: 1%;
+    }
+
+    .pyt img {
+        width: 38.875vw;
+        height: 29.1875vw;
+    }
+
+    .naprav_pyt {
+        margin-top: 2%;
+        color: #000;
+        font-size: 1.5vw;
+        line-height: 2.5vw;
+        letter-spacing: 0.19825vw;
+    }
+
+}

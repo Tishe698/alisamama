@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+html,
+body {
+    background: #DCDDD7;
+    padding: 0 0.1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.home {
+    position: relative;
+    height: 90vw;
+}
+
+.lico {
+    margin: 4% 0 0 3%;
+    position: relative;
+}
+
+.lico img {
+    object-fit: cover;
+    width: 47%;
+}
+
+.ludmila {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #FCAD09;
+    width: 80vw;
+    height: 12vw;
+    top: 9%;
+    align-content: center;
+    align-items: flex-end;
+    /* padding-right: 1vw; */
+    color: #FFF;
+}
+
+.ludmila-text {
+    font-size: 4vw;
+    margin-bottom: -0.5%;
+    margin-right: 5.5%;
+}
+
+.ved_astr {
+    font-size: 2vw;
+    margin-right: 3%;
+}
+
+.missia {
+    position: absolute;
+    left: 54%;
+    top: 33%;
+    width: 41%;
+}
+
+.missia p {
+    font-size: 2.3vw;
+    font-family: 'HeadlandOne', serif;
+    color: rgba(0, 0, 0, 0.50);
+    line-height: 4vw;
+}
+
+.avtor_kursov {
+    font-family: 'Lora', serif;
+    color: #fff;
+    position: absolute;
+    background-color: #FCAD09;
+    width: 70%;
+    right: 0%;
+    top: 71%;
+    padding: 7% 3% 3% 3%;
+}
+
+.avtor_kursov p {
+    font-family: 'Lora', serif;
+    font-size: 2.02vw;
+    text-transform: uppercase;
+    line-height: 3vw;
+}
+
+/* текст */
+.blocktexta {
+    height: 140vw;
+
+}
+
+.mnogonext {
+    width: 86vw;
+    line-height: 4vw;
+    margin-left: 7%;
+}
+
+.mnogonext p {
+    color: rgba(0, 0, 0, 0.66);
+    font-size: 3vw;
+    font-family: 'HeadlandOne', serif;
+    line-height: 5vw;
+}
+
+
+.zapistsa {
+    display: flex;
+    width: 39%;
+    height: 7vw;
+    border-radius: 50px;
+    background: #FCAD09;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.zapistsa p {
+    color: #FFF;
+    font-size: 2.1vw;
+    font-family: Lora, serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+@media (min-width: 992px) {
+
+    .lico {
+        margin: 4% 0 0 11%;
+        position: relative;
+    }
+
+    .avtor_kursov {
+        width: 78%;
+        right: 0;
+        top: 66%;
+        padding: 7% 3% 3% 3%;
+    }
+
+    .avtor_kursov p {
+        font-size: 1.7vw;
+    }
+
+    .ludmila {
+        width: 58vw;
+        height: 9vw;
+        top: 4%;
+        margin-right: 0vw;
+
+    }
+
+    .ludmila-text {
+        font-size: 4vw;
+        margin-bottom: 1.5%;
+        margin-right: 2.5%;
+        line-height: 3vw;
+    }
+
+    .ved_astr {
+        font-size: 1.8vw;
+        margin-right: 2%;
+    }
+
+    .lico img {
+        width: 36%;
+        height: 45vw;
+        margin-left: -6%;
+    }
+
+    .missia {
+        left: 32%;
+        top: 28%;
+        width: 41%;
+    }
+
+    .missia p {
+        font-size: 1.7vw;
+    }
+
+    .blocktexta {
+        height: 72vw;
+    }
+
+    .home {
+        height: 58vw;
+    }
+
+    .mnogonext p {
+        color: rgba(0, 0, 0, 0.66);
+        font-size: 1.7vw;
+        line-height: 4vw;
+        font-family: 'HeadlandOne', serif;
+    }
+
+    .zapistsa {
+        width: 30%;
+        height: 4vw;
+        margin-top: 3%;
+    }
+
+    .zapistsa p {
+        font-size: 1.6vw;
+    }
+}

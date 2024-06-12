@@ -1,0 +1,666 @@
+@font-face {
+    font-family: '1 Shelley Volante';
+    src: url('/static/fonts/1shelleyvolante.ttf') format('truetype');
+}
+
+.sait_razrab{
+    color: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    background: #DCDDD7;
+    height: 100%;
+
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main {
+    flex: 1;
+    margin-top: 7%;
+
+}
+    .zapisatsa2 {
+        display: none;
+    }
+.block1 {
+    background: linear-gradient(180deg, #DCDDD7 0.01%, #DCDDD7 66.98%, #FFF 100%);
+    width: 100%;
+}
+
+.shkola_ved_astrolog {
+    background-color: #FCAD09;
+    width: 61vw;
+    height: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+.shkola_ved_astrolog p {
+    text-transform: uppercase;
+    font-size: 3.3vw;
+    color: #FFF;
+    text-shadow: rgba(0, 0, 0, 0.2) 0 0.3vw;
+    font-weight: 500;
+    padding-right: 7.1vw;
+}
+
+.ludmila_yzsina {
+    color: rgba(0, 0, 0, 0.53);
+    font-family: "1 Shelley Volante", sans-serif;
+    font-size: 6vw;
+    font-style: normal;
+    line-height: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: -2.2% 0 0 13.2%;
+}
+
+.block_rasrkroite {
+    display: flex;
+}
+
+.text_raskroite {
+    margin: 1% 0 0 19%;
+}
+
+.text_raskroite p {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.58);
+    font-size: 1.7vw;
+    width: 29vw;
+}
+
+.zapisatsa {
+    width: 25.5vw;
+    height: 3.1vw;
+    border-radius: 2.02963vw;
+    background: #FCAD09;
+    display: flex;
+    margin: 4% 0 0 8%;
+}
+
+.zapisatsa p {
+    color: #FFF;
+    font-size: 1.44vw;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telo {
+    margin: -21.5% 0 0 4%;
+    z-index: 2;
+}
+
+.telo img {
+    object-fit: cover;
+    width: 26vw;
+    mix-blend-mode: darken;
+    height: 100%;
+}
+
+.socia1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.3vw;
+    position: absolute;
+    left: 14%;
+    margin-top: 1.4%;
+}
+
+.socia1 img {
+    width: 2.2vw;
+}
+
+.block2 {
+    background: #DCDDD7;
+}
+
+.actual_news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.actual_news p {
+    font-size: 2.26563vw;
+    letter-spacing: 0.52113vw;
+}
+
+.perv_colonka_novostei {
+    display: flex;
+    margin: 5% 5% 0 5%;
+    gap: 8%;
+}
+
+.menyi_block {
+    width: 23.2435vw;
+    height: 42.55081vw;
+    border: 0.3vw solid #FCAD09;
+}
+
+.kartinka {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+
+}
+
+.kartinka img {
+        height: 20.21613vw;
+    object-fit: cover;
+    width: 22vw;
+}
+
+.menyi_text {
+    color: rgba(0, 0, 0, 0.66);
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 600;
+    line-height: 2.71813vw;
+    height: 15.5vw;
+    padding-top: 18%;
+}
+
+.smotert_video {
+    width: 25.44106vw;
+    height: 4.18406vw;
+    background: rgba(255, 255, 255, 0.50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0% 0% 0% -6%;
+    cursor: pointer;
+}
+
+.smotert_video p {
+    color: rgba(0, 0, 0, 0.66);
+    font-size: 1.96813vw;
+    line-height: 2.09613vw; /* 106.504% */
+    letter-spacing: 0.15744vw;
+}
+
+.kartinka2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.kartinka2 img {
+    /* height: 20.249vw; */
+    object-fit: cover;
+    width: 22vw;
+    height: 20.21613vw;
+}
+
+.menyi_text_2 {
+    color: rgba(0, 0, 0, 0.66);
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 600;
+    height: 15.5vw;
+    padding: 20% 0% 0% 0%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.menyi_text_3 {
+    display: flex;
+    height: 11.51694vw;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 78%;
+        padding-top: 43%;
+}
+
+.menyi_text_3 p {
+    color: rgba(0, 0, 0, 0.66);
+    text-align: center;
+    font-size: 2.7vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4.55638vw;
+    letter-spacing: 0.17069vw;
+}
+
+.menyi_text_seredina_3 {
+width: 78%;
+    margin: 0 auto;
+    height: 24.5vw;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 8%;
+}
+
+.menyi_text_seredina_3 p {
+    color: rgba(0, 0, 0, 0.66);
+    text-align: center;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.19013vw; /* 167.751% */
+    letter-spacing: 0.10444vw;
+}
+
+.vtoray_stroka_novistei {
+    display: flex;
+    margin: 5% 5% 0 5%;
+    gap: 8%;
+}
+
+.poluchit_konsultacia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.poluchit_konsultacia p {
+    color: rgba(0, 0, 0, 0.66);
+    text-align: center;
+    font-size: 1.84925vw;
+    font-weight: 600;
+    line-height: 3.30925vw; /* 178.952% */
+    letter-spacing: 0.14794vw;
+}
+
+.kartinka_konsultacia {
+    display: flex;
+    justify-content: center;
+    height: 15vw;
+    margin-bottom: 32%;
+}
+
+.ekcpers_konsultacia_super {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ekcpers_konsultacia_super p {
+    color: rgba(0, 0, 0, 0.66);
+    text-align: center;
+    font-size: 2.13381vw;
+    font-weight: 600;
+    line-height: 3.55638vw; /* 166.667% */
+    letter-spacing: 0.17069vw;
+}
+
+.tysha {
+    border-radius: 1.77819vw;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 11.16544vw;
+    height: 3.64531vw;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+
+.tysha p {
+
+    color: #000;
+    text-align: center;
+    font-size: 1.77819vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.22275vw; /* 125% */
+    letter-spacing: 0.14225vw;
+}
+
+.dlit_konsult {
+    display: flex;
+    margin-top: 15%;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.82);
+    text-align: center;
+    font-size: 1.77819vw;
+    font-weight: 400;
+    line-height: 2.22275vw; /* 125% */
+    letter-spacing: 0.14225vw;
+    height: 13vw;
+}
+
+.posmotr_spisok_tem {
+    width: 23.7vw;
+    height: 4.28406vw;
+    background: rgba(255, 255, 255, 0.50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 12.3% 0% 0% -2%;
+}
+
+.posmotr_spisok_tem p {
+    color: rgba(0, 0, 0, 0.66);
+    text-align: center;
+    font-size: 1.89294vw;
+    font-weight: 500;
+}
+
+.stan_astrolog_pomogi {
+    display: flex;
+    height: 11.51694vw;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stan_astrolog_pomogi p {
+    color: rgba(0, 0, 0, 0.66);
+    text-align: center;
+    font-size: 1.30556vw;
+    font-weight: 600;
+    line-height: 2.19013vw; /* 167.751% */
+    letter-spacing: 0.10444vw;
+}
+
+.kartinka_posl_block img {
+    width: 12.80506vw;
+    height: 16.13231vw;
+    margin-bottom: 6%;
+    border-radius: 1vw;
+}
+
+.kartinka_posl_block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 27%;
+}
+
+.block3 {
+    display: flex;
+    margin-top: 13%;
+    position: relative;
+    margin-left: 9%;
+}
+
+
+.kniga img {
+    width: 29.95381vw;
+    height: 42vw;
+}
+
+.text_gaid {
+    display: flex;
+    width: 41.51256vw;
+    margin-top: 6%;
+    margin-left: 3%;
+}
+
+.text_gaid p {
+    color: rgba(0, 0, 0, 0.66);
+    text-align: center;
+    font-size: 2.6vw;
+    line-height: 3.432vw;
+    letter-spacing: 0.15106vw;
+}
+
+.skachatgaid {
+    width: 25.5vw;
+    height: 5.1vw;
+    border-radius: 3.02963vw;
+    background: #FCAD09;
+    display: flex;
+    position: absolute;
+    right: 27%;
+    top: 69%;
+    justify-content: center;
+}
+
+.skachatgaid p {
+    color: #FFF;
+    font-size: 2.44vw;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 280px) and (max-width: 580px) {
+    .actual_news p {
+        font-size: 3.26563vw;
+    }
+
+    .socia1 {
+        left: 3%;
+        font-size: 9vw;
+            margin-top: 8%;
+    }
+
+    .socia1 img {
+        width: 5.2vw;
+    }
+
+    .text_raskroite {
+        margin: 9% 0 0 13%;
+    }
+
+    .telo {
+        margin: 6% 0 0 0%;
+        display: flex;
+        flex-direction: column;
+        width: 38vw;
+    }
+
+    .zapisatsa2 {
+        display: block;
+        color: white;
+        background-color: orange;
+        display: flex;
+        justify-content: center;
+        height: 10vw;
+        align-items: center;
+        border-radius: 4vw;
+        font-size: 3.3vw;
+        width: 55vw;
+        margin-left: -55%;
+    }
+
+    .telo img {
+        width: 41vw;
+        margin-left: -4%;
+    }
+
+    .text_raskroite p {
+        font-size: 3.1vw;
+        width: 39vw;
+        line-height: 5vw;
+        letter-spacing: 0.03vw;
+    }
+
+    .ludmila_yzsina {
+        font-size: 13vw;
+        margin: -3.7% 0 0% 4.2%;
+    }
+
+    .shkola_ved_astrolog {
+        width: 100vw;
+        height: 13vw;
+        margin-top: 7%;
+    }
+
+    .shkola_ved_astrolog p {
+        font-size: 5vw;
+        padding-right: 4vw;
+        letter-spacing: 0.1vw;
+    }
+
+    .zapisatsa {
+        display: none;
+    }
+
+    main {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 581px) and (max-width: 992px) {
+
+
+    .shkola_ved_astrolog {
+        width: 66vw;
+        height: 11vw;
+        margin-top: 7%;
+    }
+
+    .shkola_ved_astrolog p {
+        font-size: 4.5vw;
+        padding-right: 4vw;
+    }
+
+    .ludmila_yzsina {
+        font-size: 8.6vw;
+        margin: -2.7% 0 0% 4.2%;
+    }
+
+    .block_rasrkroite {
+        margin-top: -4%;
+    }
+
+    .socia1 {
+
+        left: 3%;
+        margin-top: 10.3%;
+        gap: 2.5vw;
+    }
+
+    .socia1 img {
+        width: 3.7vw;
+    }
+
+    .text_raskroite {
+        margin: 9% 0 0 10%;
+    }
+
+    .text_raskroite p {
+        font-size: 2.5vw;
+        width: 48vw;
+        line-height: 4vw;
+        letter-spacing: 0.03vw;
+    }
+
+    .zapisatsa {
+        width: 32.5vw;
+        height: 5.1vw;
+        margin: 4% 0 0 8%;
+        display: none;
+    }
+
+    .zapisatsa p {
+        font-size: 1.95vw;
+    }
+
+    .telo img {
+        width: 41vw;
+    }
+
+    .telo {
+        margin: -21% 0 0 0%;
+    }
+
+    .actual_news p {
+        font-size: 4.26563vw;
+        letter-spacing: 0.52113vw;
+    }
+
+
+    .perv_colonka_novostei {
+        margin: 10% 5% 18% 5%;
+        gap: 11%;
+    }
+
+    .smotert_video {
+        width: 23.44106vw;
+        height: 4.18406vw;
+        text-align: center;
+        margin: 0% 0% 0% -1%;
+
+    }
+
+    .menyi_block {
+        transform: scale(1.22);
+    }
+
+    .vtoray_stroka_novistei {
+        gap: 11%;
+
+    }
+
+}
+
+@media (min-width: 992px) {
+    .zapisatsa2 {
+        display: none;
+    }
+
+    .actual_news {
+        margin-top: 4%;
+    }
+
+    .actual_news p {
+        font-size: 1.76563vw;
+    }
+
+    .perv_colonka_novostei {
+        margin: 0% 4% 0 2%;
+        gap: 13%;
+        transform: scale(0.85);
+    }
+
+    .vtoray_stroka_novistei {
+        margin: 0% 4% 0 2%;
+        gap: 13%;
+        transform: scale(0.85);
+    }
+
+    .block3 {
+        margin-top: 5%;
+        margin-left: 13%;
+        margin-bottom: 11%;
+    }
+
+    .kniga img {
+        width: 21.95381vw;
+        height: 29vw;
+    }
+
+    .text_gaid p {
+        font-size: 1.6vw;
+    }
+
+    .skachatgaid {
+        width: 17.5vw;
+        height: 3.1vw;
+        right: 36%;
+        top: 69%;
+    }
+
+    .text_gaid {
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+
+
+    .skachatgaid p {
+        font-size: 1.54vw;
+    }
+}

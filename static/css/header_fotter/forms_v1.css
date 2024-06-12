@@ -1,0 +1,119 @@
+
+.form-control {
+    /* border: 1px solid #ccc; */
+    /* border-radius: 1vw; */
+    padding: 1vw;
+    width: 59vw;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    border: 2px solid #FCAD09;
+}
+
+.param_name {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10.1%;
+    color: #000;
+    text-align: center;
+    font-family: Lora;
+    font-size: 1.416vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.888vw;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.knopka_otpravit {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 6%;
+    width: 22vw;
+    background-color: #FCAD09;
+    justify-content: center;
+    height: 3vw;
+    align-items: center;
+    border-radius: 10vw;
+    border: 1px solid #888;
+    font-family: Lora;
+    color: white;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    overflow-y: auto;
+    height: 100vh;
+    background: rgb(0 0 0 / 73%);
+}
+
+.modal-content {
+    background-color: rgb(225 225 225 / 88%);
+    margin: 2% 0% 0% 9%;
+    padding: 3vw;
+    width: 80vw;
+    border-radius: 7vw;
+    border: 2px solid #FCAD09;
+    max-height: 100%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    right: 14%;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.soglasie_danye {
+    display: flex;
+    margin-left: 10%;
+    gap: 2%;
+    margin-top: 2%;
+}
+.soglasie_danye p{
+    font-size: 1.416vw;
+line-height: 1.888vw;
+
+}
+
+input[type="checkbox"] {
+  width: 2vw;
+  height: 2vw;
+}
+
+@media (min-width: 280px) and (max-width: 992px) {
+    .knopka_otpravit {
+        width: 26vw;
+        height: 5vw;
+        font-size: 3vw;
+    }
+
+    .param_name {
+
+        font-size: 2.616vw;
+
+    }
+
+    .modal-content {
+        margin: 41% 0% 0% 9%;
+    }
+}

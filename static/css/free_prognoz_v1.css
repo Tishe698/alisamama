@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    background: #DCDDD7;
+    height: 100%;
+
+}
+
+
+main {
+    flex: 1;
+    margin-top: 3%;
+
+}
+
+.free_astro_prognoz {
+    background: #FCAD09;
+    width: 89.83694vw;
+    height: 4.48406vw;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.free_astro_prognoz p {
+    text-shadow: rgba(0, 0, 0, 0.2) 0 0.3vw;
+    color: #FFF;
+    font-feature-settings: 'case' on;
+    letter-spacing: 0.4vw;
+    font-size: 3.06806vw;
+    text-transform: uppercase;
+}
+
+.bespatnyi_entensiv {
+    display: flex;
+    width: 57.06544vw;
+    height: 13.35775vw;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.bespatnyi_entensiv p {
+    color: #000;
+    text-align: center;
+    font-size: 2.26563vw;
+    line-height: 3.06806vw; /* 135.417% */
+    letter-spacing: 0.52113vw;
+}
+
+.chto_na_intensiv {
+    width: 82.625vw;
+    margin: 0 auto;
+}
+
+.chto_na_intensiv p {
+    color: #000;
+    text-align: center;
+    font-size: 1.98244vw;
+    line-height: 3.39844vw; /* 171.429% */
+    letter-spacing: 0.41631vw;
+}
+
+.kartinka_free_intens {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.kartinka_free_intens img {
+    width: 56.4375vw;
+    height: 27vw;
+}
+
+.block_za_3_dny {
+    display: flex;
+    flex-direction: column;
+}
+
+.za_3_dny {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-size: 2.26563vw;
+    line-height: 3.06806vw; /* 135.417% */
+    letter-spacing: 0.52113vw;
+    margin-left: 22%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.stroka_3_dny {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-bottom: 4%;
+}
+
+.stroka_3_dny img {
+    object-fit: contain;
+    width: 2.26563vw;
+}
+
+.stroka_3_dny p {
+    color: rgba(0, 0, 0, 0.82);
+    font-size: 2.124vw;
+    line-height: 1.888vw;
+    margin-left: 3%;
+}
+
+.izeuchenie_luboe_vremy {
+    color: #000;
+    font-size: 2.124vw;
+    line-height: 2.78481vw;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.svyzatsy_snami {
+    width: 40.70575vw;
+    height: 5.71125vw;
+    border-radius: 2.36vw;
+    background: #FCAD09;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.svyzatsy_snami p {
+    color: #FFF;
+    font-size: 1.98244vw;
+    letter-spacing: 0.45594vw;
+}
+
+.linia {
+    margin: 0 auto;
+    width: 64.19269vw;
+    height: 0.14163vw;
+    background: rgba(0, 0, 0, 0.27);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.metod_posob {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    font-size: 2.26563vw;
+    line-height: 3.06806vw; /* 135.417% */
+    letter-spacing: 0.52113vw;
+    margin-bottom: 3%;
+}
+
+.pri_pomoshi_gaida {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    font-size: 1.98244vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.39844vw; /* 171.429% */
+    letter-spacing: 0.41631vw;
+    width: 84vw;
+    margin-bottom: 3%;
+}
+
+.kniga_unnamed {
+    display: flex;
+    justify-content: center;
+}
+
+.kniga_unnamed img {
+    border-radius: 4vw;
+    width: 68.4375vw;
+    height: 40.125vw;
+}
+
+.svyzatsy_snami_2 {
+    width: 40.70575vw;
+    height: 5.71125vw;
+    border-radius: 2.36vw;
+    background: #FCAD09;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.svyzatsy_snami_2 p {
+    color: #FFF;
+    font-size: 1.98244vw;
+    letter-spacing: 0.45594vw;
+}
+
+.link_instr {
+    margin-left: 0.5%;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #000;
+}
+
+@media (min-width: 992px) {
+    .free_astro_prognoz {
+        height: 3.48406vw;
+    }
+
+    .free_astro_prognoz p {
+        letter-spacing: 0.7vw;
+        font-size: 2.5vw;
+    }
+
+    .bespatnyi_entensiv p {
+        font-size: 1.7vw;
+    }
+
+    .chto_na_intensiv p {
+        font-size: 1.7vw;
+    }
+
+    .kartinka_free_intens {
+        margin-top: 3%;
+    }
+
+    .kartinka_free_intens img {
+        width: 45.4375vw;
+        height: 22vw;
+    }
+
+    .za_3_dny {
+        font-size: 1.7vw;
+        margin-left: 10%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .stroka_3_dny img {
+        width: 2vw;
+    }
+
+    .stroka_3_dny p {
+        font-size: 1.5vw;
+        letter-spacing: 0.4vw;
+    }
+
+    .izeuchenie_luboe_vremy {
+        font-size: 1.7vw;
+    }
+
+    .svyzatsy_snami {
+        width: 25.70575vw;
+        height: 2.71125vw;
+        margin-top: 3%;
+    }
+
+    .svyzatsy_snami p {
+        letter-spacing: 0.25594vw;
+        font-size: 1.38244vw;
+    }
+
+    .linia {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .metod_posob {
+        font-size: 1.7vw;
+    }
+
+    .pri_pomoshi_gaida {
+        font-size: 1.58244vw;
+    }
+
+    .svyzatsy_snami_2 {
+        width: 24.70575vw;
+        height: 3.71125vw;
+        margin-top: 3%;
+        margin-bottom: 7%;
+    }
+
+    .svyzatsy_snami_2 p {
+        font-size: 1.38244vw;
+    }
+
+    .kniga_unnamed img {
+        width: 37.4375vw;
+        height: 29.125vw;
+        border-radius: 4vw;
+    }
+
+}
